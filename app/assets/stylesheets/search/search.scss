@@ -1,0 +1,122 @@
+.map-top-container {
+    #map-container {
+        width: 100%;
+        height: 87vh;
+    }
+}
+
+
+.user-pane {
+    display: flex;
+    padding: 0 13px 13px 13px;
+}
+
+.left-half {
+    width: 66%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.right-half {
+    float: right;
+    padding: 20px 0 0 0;
+    height: 90%;
+    width: 33%;
+}
+
+.home-number {
+    font-size: 24px;
+    color: rgb(72, 72, 72) !important;
+    font-weight: 600;
+    padding: 18px 0 15px 12px;
+}
+
+.home-index-item {
+    width: 31%;
+    height: auto;
+    margin: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.home-index-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.home-index-photo {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+
+    img {
+        max-width:100%;
+        height: auto;
+    }
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+.home-index-details {
+    display: block;
+    color: rgb(72, 72, 72) !important;
+    h1 {
+        font-weight: 500;
+    }
+
+    .home-index-rooms {
+        color: rgb(52, 30, 19);
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 16px !important;
+        letter-spacing: normal !important;
+        margin-top: 8px;
+        margin-bottom: 0;
+    }
+
+    .home-index-name {
+        font-size: 16px !important;
+        line-height: 22px !important;
+        letter-spacing: normal !important;
+        font-weight: 800 !important;
+        margin: 0 0 3px 0;
+    }
+
+    .home-index-price {
+        font-size: 14px !important;
+        line-height: 18px !important;
+        letter-spacing: normal !important;
+        margin: 0 0 5px 0;
+    }
+
+    .home-index-safety-score {
+        font-size: 14px !important;
+        line-height: 18px !important;
+        letter-spacing: normal !important;
+        margin: 0 0 5px 0;
+    }
+    
+    .safety-score-bad {
+        color: red;
+    }
+    
+    .safety-score-ok {
+        color: orange;
+    }
+
+    .safety-score-great {
+        color: green;
+    }
+
+    .stars {
+        font-size: 10px;
+    }
+}
+
+

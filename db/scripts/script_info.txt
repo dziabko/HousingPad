@@ -1,0 +1,31 @@
+Assault 2014-2019: https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Assault_2014_to_2019/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&outSR=4326
+curl --location --request GET 'https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Assault_2014_to_2019/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&outSR=4326'
+curl https://opendata.arcgis.com/datasets/459ee58772dd44c28feec26606c6cc29_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D -o Assault_2014_to_2019.csv
+
+
+Autotheft 2014-2019: https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Auto_Theft_2014_to_2019/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&outSR=4326
+curl --location --request GET 'https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Auto_Theft_2014_to_2019/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json'
+curl https://opendata.arcgis.com/datasets/85c6881d0e1748e9bb0bfb242a325e35_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D -o Autotheft_2014_to_2019.csv
+
+Break and Enter 2014-2019: https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Break_and_Enter_2014_to_2019/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&outSR=4326
+curl --location --request GET 'https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Break_and_Enter_2014_to_2019/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json'
+curl https://opendata.arcgis.com/datasets/d9b3dd6402454c379ba57994230aabea_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D -o Break_and_Enter_2014_to_2019.csv
+
+Bicycle Thefts: curl --location --request GET 'https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Bicycle_Thefts/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json'
+curl --location --request GET 'https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Bicycle_Thefts/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json'
+curl https://opendata.arcgis.com/datasets/4bad5af58664471f934cda833f8a4035_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D -o Bicycle_Thefts_2014_to_2019.csv
+
+
+Homicide 2014-2019: https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Homicide/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&outSR=4326
+curl --location --request GET 'https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Homicide/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json'
+curl https://opendata.arcgis.com/datasets/e334b8eda2a7440d86e2cad39dfd9ecd_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D -o Homicide_2014_to_2019.csv
+
+
+Robbery 2014-2019: https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Robbery_2014_to_2019/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&outSR=4326
+curl --location --request GET 'https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Robbery_2014_to_2019/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json'
+curl https://opendata.arcgis.com/datasets/29d23aa157a64c17bbb4848c4305a069_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D -o Robbery_2014_to_2019.csv
+
+
+Theft Over 2014-2919: https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Theft_Over_2014_to_2019/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&outSR=4326
+curl --location --request GET 'https://services.arcgis.com/S9th0jAJ7bqgIRjw/arcgis/rest/services/Theft_Over_2014_to_2019/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json'
+curl https://opendata.arcgis.com/datasets/758bfcbb1e58407d8e72468a021b511c_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D -o Theft_Over_2014_to_2019.csv

@@ -1,0 +1,41 @@
+version: 2.1
+orbs:
+  ruby: circleci/ruby@0.1.2 
+
+jobs:
+  build-and-test:
+    executor: ruby/default
+    docker:
+      - image: circleci/ruby:2.7.2-buster
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD
+      - image: postgres:9.6
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+        environment: # environment variables for the Postgres container.
+          POSTGRES_USER: root
+          POSTGRES_HOST_AUTH_METHOD: "trust"
+          POSTGRES_DB: ruby_circle_test
+    steps:
+      - checkout
+      - run: gem install bundler:2.1.4
+      - run: bundle install
+      - run: sudo apt-get install libv8-dev
+      - run: sudo apt-get install nodejs
+      - run: 
+          name: Set up DB
+          command: |
+            bundle exec rake db:migrate
+            bundle exec rake db:seed
+          environment:
+            DATABASE_URL: "postgres://root@localhost:5432/ruby_circle_test"
+      - run: cd frontend
+      - run: sudo apt install npm
+      - run: npm install
+
+workflows:
+  main:
+    jobs:
+      - build-and-test

@@ -1,0 +1,2 @@
+class CrimeRate < ApplicationRecord
+end

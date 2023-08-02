@@ -1,0 +1,57 @@
+{
+  "name": "HousingPad_backend",
+  "private": true,
+  "proxy": "https://maps.googleapis.com",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@material-ui/styles": "^4.11.2",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clsx": "^1.1.1",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^6.0.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-favicon": "0.0.14",
+    "react-geocode": "^0.2.2",
+    "react-materialize": "^2.4.5",
+    "react-moment": "^1.0.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "description": "#### A clone of [Airbnb](https://www.airbnb.com/ \"Airbnb\")",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "engines": {
+    "node": "8.9.0",
+    "npm": "6.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode=development --watch",
+    "postinstall": "webpack"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

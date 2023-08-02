@@ -1,0 +1,214 @@
+section {
+    display: block;
+    box-sizing: border-box;
+}
+
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    width: 568px;
+    height: 783px;
+    outline: 1px solid black;
+    background: white;
+
+}
+
+.login-form-container {
+    background-color: rgb(255, 255, 255) !important;
+    box-sizing: border-box !important;
+    padding: 32px !important;
+    display: block;
+}
+
+.login-form-box {
+    padding: 20px;
+    display: block;
+    margin-top: 0em;
+}
+
+.login-form {
+    margin-bottom: 16px;
+}
+
+.input-container {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.input-container-2 {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    "Helvetica Neue",
+    sans-serif !important;
+    color: rgb(72, 72, 72) !important;
+    background-color: rgb(255, 255, 255) !important;
+    margin-bottom: 8px !important;
+    position: relative !important;
+    z-index: 0 !important;
+    display: block !important;
+    width: 100% !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(235, 235, 235) !important;
+    border-radius: 2px !important;
+}
+
+.input-icon {
+    padding: 13px 13px 0 13px;
+    float: right !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    "Helvetica Neue",
+    sans-serif !important;
+    color: rgb(72, 72, 72) !important;
+}
+
+.input-icon svg {
+    height: 1em;
+    width: 1em;
+    display: block;
+    fill: currentcolor;
+    transform: rotate(0deg);
+}
+
+.form-input {
+    position: relative !important;
+    overflow: hidden !important;
+    display: block;
+    box-sizing: border-box;
+}
+
+.close-x {
+    margin-bottom: 24px !important;
+    box-sizing: border-box;
+    display: block;
+}
+
+.x-button {
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer !important;
+    background-color: transparent !important;
+    color: buttontext !important;
+    display: block !important;
+    border-width: 0px !important;
+    border-style: initial !important;
+    border-color: initial !important;
+    border-image: initial !important;
+    -webkit-appearance: button;
+    align-items: flex-start;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.x-button svg {
+    height: 16px;
+    width: 16px;
+    display: block;
+    fill: rgb(118, 118, 118);
+    overflow: hidden;
+    cursor: pointer !important;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    cursor: pointer;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    font-weight: 800 !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    min-width: 77.6656px !important;
+    box-shadow: none !important;
+    color: rgb(255, 255, 255) !important;
+    margin: 0px !important;
+    text-decoration: none !important;
+    border-radius: 4px !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    background: rgb(255, 90, 95) !important;
+    border-color: transparent !important;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+
+    &:hover {
+        background: rgb(238, 56, 62) !important;
+    }
+
+    &:disabled {
+        opacity: .4;
+    }
+}
+
+.button-text {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    "Helvetica Neue",
+    sans-serif !important;
+    color: inherit !important;
+    cursor: pointer !important;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.login-input {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    "Helvetica Neue",
+    sans-serif !important;
+    color: rgb(72, 72, 72) !important;
+    font-weight: normal !important;
+    background-color: transparent !important;
+    width: 100% !important;
+    border: none;
+    padding: 11px !important;
+    display: block;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.line-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.line {
+    border-bottom: 1px solid rgb(235, 235, 235) !important;
+    display: block;
+}
+
+.redirect {
+    text-align: center;
+}
+
+.login-form-container a {
+    cursor: pointer;
+    color: rgb(0, 132, 137) !important;
+    text-align: left !important;
+    font: inherit inherit inherit inherit inherit inherit inherit inherit inherit !important;
+    font-weight: 500;
+    text-decoration: none !important;
+}
