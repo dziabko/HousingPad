@@ -20,3 +20,7 @@ Finally run the app by running these commands
 `bundle`  
 `bundle exec rake db:setup`  
 `bundle exec rails s`  
+
+## Example routes
+localhost:3000/#
+localhost:3000/#/homes/1
